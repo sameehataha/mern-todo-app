@@ -1,4 +1,5 @@
 TaskCheck - Full Stack Todo Application 📝
+
 A modern, full-stack todo application built with the MERN stack (MongoDB, Express, React, Node.js). TaskCheck provides a clean and intuitive interface for managing your daily tasks with features like adding, editing, completing, and deleting todos.
 ![TaskCheck-app](/TaskCheck-app.png)
 ![mongodb-cluster](/mongodb-cluster.png)
@@ -27,20 +28,35 @@ Frontend
 
 📂 Project Structure
 todo-app/
+
 ├── frontend/
+
 │   ├── src/
+
 │   │   ├── App.jsx          # Main React component
+
 │   │   ├── main.jsx         # React entry point
+
 │   │   └── index.css        # Tailwind CSS imports
+
 │   └── dist/                # Production build
+
 ├── backend/
+
 │   ├── server.js            # Express server setup
+
 │   ├── routes/
+
 │   │   └── todo.js          # Todo API routes
+
 │   ├── models/
+
 │   │   └── todo.model.js    # Todo Mongoose schema
+
 │   └── config/
+
 │       └── db.js            # MongoDB connection
+
 └── README.md
 
 🚀 Getting Started
